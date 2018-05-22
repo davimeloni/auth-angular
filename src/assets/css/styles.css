@@ -1,0 +1,286 @@
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+img {
+  width: 75%;
+  padding: 50px;
+}
+
+.container {
+  margin: auto;
+}
+
+/* Common Classes */
+
+.primary-text {
+  color:#2b3ebe;
+}
+
+.primary-background {
+  color:#2b3ebe;
+}
+
+/* Header */
+
+#main-header {
+  border-bottom: 1px solid #2b3ebe;
+}
+
+/* Sub Header */
+
+#subheader {
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px;
+}
+
+/* NavBar */
+
+#navbar {
+  text-transform: uppercase;
+}
+
+#navbar li {
+  display: inline;
+  padding-right: 20px;
+  list-style: none;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #888;
+}
+
+#navbar li.current a, #navbar a:hover {
+  color:#2b3ebe;
+  border-bottom: 3px solid #2b3ebe;
+  padding-bottom: 3px;
+}
+
+/* Showcase */
+
+#showcase {
+  background-image: url("../images/connect.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 1px solid #2b3ebe;
+  margin-bottom: 30px;
+}
+
+#showcase .row {
+  height: 600px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 20px;
+  line-height: 1.2;
+}
+
+#showcase h1 span{
+  color: #2b3ebe;
+}
+
+#showcase p {
+  color: #ccc;
+  margin: 0;
+}
+
+#showcase .showcase-content {
+  background: #333;
+  color: #fff;
+  border-radius: 90px;
+  padding: 40px;
+  opacity: .9;
+}
+
+/* Mission */
+
+#mission h2 {
+  font-size: 35px;
+  padding-bottom: 20px;
+  margin: 20px;
+}
+#mission p{
+  padding-bottom: 20px;
+  margin: 20px;
+}
+
+#mission .fa {
+  font-size: 60px;
+  color: #2b3ebe;
+}
+
+/* Info */
+
+#info {
+  background-image: url("../images/dew.jpeg");
+  background-repeat: no-repeat;
+  background-color: #333;
+  color: #fff;
+}
+
+#info h2 {
+  font-size: 35px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+#info ul {
+  list-style: none;
+  padding: 0;
+}
+
+#info li {
+  line-height: 2em;
+  font-size: 20px;
+}
+
+/* Company */
+
+#company {
+  background: #2b3ebe;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#company h4 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#company ul {
+  padding: 0;
+  list-style: none;
+  line-height: 2em;
+}
+
+#company input[type="text"]{
+  padding: 7px;
+}
+
+#company button {
+  background: #222;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+}
+
+/* Footer */
+
+#main-footer {
+  background: #333;
+  color: #fff;
+}
+
+/* Page */
+
+#page {
+  margin-bottom: 40px;
+}
+
+/* ICO */
+
+.ico ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.ico ul li:nth-child(odd) {
+  background: #333;
+  color: #fff;
+}
+
+.ico ul li:nth-child(even) {
+  background: #2b3ebe;
+  color: #fff;
+}
+
+/* Contact */
+
+.contact form{
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.contact form input[type="text"]{
+  width: 50%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.contact form textarea{
+  width: 50%;
+  height: 100px;
+}
+
+.contact form button{
+  width: 50%;
+  padding: 10px 0;
+  border: 0;
+  background: #2b3ebe;
+  color: #fff;
+}
+
+.contact form label {
+  text-transform: uppercase;
+}
+
+i {
+  margin-right: 10px;
+}
+
+/* Forms */
+.forms form{
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.forms form input[type="text"]{
+  width: 50%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.forms form input[type="password"]{
+  width: 50%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.forms form label {
+  text-transform: uppercase;
+}
+
+.forms form button{
+  width: 50%;
+  padding: 10px 0;
+  border: 0;
+  background: #2b3ebe;
+  color: #fff;
+}
+
+/* Media Queries */
+
+@media (max-width:800px){
+  #showcase h1 {
+    font-size: 30px;
+  }
+}
+
+@media(max-width:500px){
+}

@@ -1,0 +1,20 @@
+<section id="page" class="forms">
+  <div class="container">
+    <div class="row center-xs center-sm center-md center-lg">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2><span class="primary-text">Log</span> In</h2>
+        <form (submit)="onLogIn()">
+          <div>
+            <label for="username">username</label><br>
+            <input type="text" class="form-control" [(ngModel)]="username" name="username">
+          </div>
+          <div>
+            <label for="password">Password</label><br>
+            <input type="password" class="form-control" [(ngModel)]="password" name="password">
+          </div>
+          <button type="submit" name="button">Log in</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,29 @@
+<section id="page" class="forms">
+  <div class="container">
+    <div class="row center-xs center-sm center-md center-lg">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2><span class="primary-text">Sign</span> Up</h2>
+        <p>We'd love to have you joining us!</p>
+        <form (submit)="onSignUp()">
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" class="form-control" [(ngModel)]="name" name="name">
+          </div>
+          <div>
+            <label for="name">Username</label><br>
+            <input type="text" class="form-control" [(ngModel)]="username" name="username">
+          </div>
+          <div>
+            <label for="email">Email</label><br>
+            <input type="text" class="form-control" [(ngModel)]="email" name="email">
+          </div>
+          <div>
+            <label for="password">Password</label><br>
+            <input type="password" class="form-control" [(ngModel)]="password" name="password">
+          </div>
+          <button type="submit" name="button">Join us</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
